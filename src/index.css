@@ -1,13 +1,28 @@
-body {
+.body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Springville-Regular3",
+    "ACaslonPro-Regular", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+  /* font-family: "Springville-Regular3"; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "ACaslonPro-Regular";
+  font-weight: 900;
+  src: local("ACaslonPro-Regular"),
+    url(./fonts/ACaslonPro-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "Springville-Regular3";
+  font-weight: 900;
+  src: local("Springville-Regular3"),
+    url(./fonts/Springville-Regular3.otf) format("opentype");
 }

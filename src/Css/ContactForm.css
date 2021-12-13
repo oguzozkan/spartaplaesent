@@ -1,0 +1,79 @@
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  border-radius: 7px;
+
+  color: white;
+}
+
+button[type="submit"] {
+  background-color: #000;
+  color: #ffff;
+  cursor: pointer;
+  border-left: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(31, 31, 31, 0.6) 20%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  transition: all 0.2s ease-in-out;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.col-right {
+  margin-top: 6px;
+  display: flex;
+  width: 120%;
+  height: 120%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  button[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
