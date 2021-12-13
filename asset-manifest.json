@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/oguzozkan/spartaplaesent/static/css/main.3d699467.chunk.css",
-    "main.js": "/oguzozkan/spartaplaesent/static/js/main.07b44666.chunk.js",
-    "main.js.map": "/oguzozkan/spartaplaesent/static/js/main.07b44666.chunk.js.map",
-    "runtime-main.js": "/oguzozkan/spartaplaesent/static/js/runtime-main.cbfdb102.js",
-    "runtime-main.js.map": "/oguzozkan/spartaplaesent/static/js/runtime-main.cbfdb102.js.map",
-    "static/css/2.0a9ec390.chunk.css": "/oguzozkan/spartaplaesent/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.6db94eec.chunk.js": "/oguzozkan/spartaplaesent/static/js/2.6db94eec.chunk.js",
-    "static/js/2.6db94eec.chunk.js.map": "/oguzozkan/spartaplaesent/static/js/2.6db94eec.chunk.js.map",
-    "static/js/3.188da09a.chunk.js": "/oguzozkan/spartaplaesent/static/js/3.188da09a.chunk.js",
-    "static/js/3.188da09a.chunk.js.map": "/oguzozkan/spartaplaesent/static/js/3.188da09a.chunk.js.map",
-    "index.html": "/oguzozkan/spartaplaesent/index.html",
-    "static/css/2.0a9ec390.chunk.css.map": "/oguzozkan/spartaplaesent/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.3d699467.chunk.css.map": "/oguzozkan/spartaplaesent/static/css/main.3d699467.chunk.css.map",
-    "static/js/2.6db94eec.chunk.js.LICENSE.txt": "/oguzozkan/spartaplaesent/static/js/2.6db94eec.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/oguzozkan/spartaplaesent/static/media/Springville-Regular3.7402f63b.otf",
-    "static/media/logo.4ac60799.svg": "/oguzozkan/spartaplaesent/static/media/logo.4ac60799.svg"
+    "main.css": "/oguzozkan.github.io/spartaplaesent/static/css/main.2f0c165b.chunk.css",
+    "main.js": "/oguzozkan.github.io/spartaplaesent/static/js/main.07b44666.chunk.js",
+    "main.js.map": "/oguzozkan.github.io/spartaplaesent/static/js/main.07b44666.chunk.js.map",
+    "runtime-main.js": "/oguzozkan.github.io/spartaplaesent/static/js/runtime-main.f17111b7.js",
+    "runtime-main.js.map": "/oguzozkan.github.io/spartaplaesent/static/js/runtime-main.f17111b7.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/oguzozkan.github.io/spartaplaesent/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.454d1e9b.chunk.js": "/oguzozkan.github.io/spartaplaesent/static/js/2.454d1e9b.chunk.js",
+    "static/js/2.454d1e9b.chunk.js.map": "/oguzozkan.github.io/spartaplaesent/static/js/2.454d1e9b.chunk.js.map",
+    "static/js/3.188da09a.chunk.js": "/oguzozkan.github.io/spartaplaesent/static/js/3.188da09a.chunk.js",
+    "static/js/3.188da09a.chunk.js.map": "/oguzozkan.github.io/spartaplaesent/static/js/3.188da09a.chunk.js.map",
+    "index.html": "/oguzozkan.github.io/spartaplaesent/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/oguzozkan.github.io/spartaplaesent/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.2f0c165b.chunk.css.map": "/oguzozkan.github.io/spartaplaesent/static/css/main.2f0c165b.chunk.css.map",
+    "static/js/2.454d1e9b.chunk.js.LICENSE.txt": "/oguzozkan.github.io/spartaplaesent/static/js/2.454d1e9b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/oguzozkan.github.io/spartaplaesent/static/media/Springville-Regular3.7402f63b.otf",
+    "static/media/logo.4ac60799.svg": "/oguzozkan.github.io/spartaplaesent/static/media/logo.4ac60799.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cbfdb102.js",
+    "static/js/runtime-main.f17111b7.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.6db94eec.chunk.js",
-    "static/css/main.3d699467.chunk.css",
+    "static/js/2.454d1e9b.chunk.js",
+    "static/css/main.2f0c165b.chunk.css",
     "static/js/main.07b44666.chunk.js"
   ]
 }
