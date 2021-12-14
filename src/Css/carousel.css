@@ -1,8 +1,34 @@
+.heroText {
+  right: 0% !important;
+  text-align: left !important;
+  padding-bottom: 15vh !important;
+  max-width: 450px;
+  font-family: Springville-Regular3;
+}
+.heroTitle {
+  font-size: 300%;
+  font-family: Springville-Regular3;
+}
+@media (max-width: 768px) {
+  .heroText {
+    padding-bottom: 1.25rem !important;
+    text-align: center !important;
+  }
+}
+@media (max-width: 1024px) {
+  .heroText {
+    text-align: center !important;
+    padding: 12vw !important;
+  }
+}
+
 .carouselDiv > div > div > button {
-  background-color: rgb(161, 160, 160) !important;
+  background-color: rgb(182, 182, 182) !important;
   border-radius: 50% !important;
-  height: 12px !important;
-  width: 12px !important;
+  height: 10px !important;
+  width: 10px !important;
+  margin-right: 6px !important;
+  margin-left: 6px !important;
   top: 600px !important;
   opacity: 0.8;
 }

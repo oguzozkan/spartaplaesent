@@ -3,18 +3,18 @@ import { Navbar, Nav } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import menu from "../../assets/img/menu.png";
 import logo from "../../assets/img/logo.svg";
-import "../../Css/navbar.css";
+
 function NavB() {
   return (
     <>
       <Navbar
-        bg="white"
         variant="light"
+        bg="white"
         className="NavConteiner"
         collapseOnSelect
         sticky="top"
       >
-        <Container>
+        <Container className="NavInnerCon">
           <Navbar.Brand href="#home">
             <img
               src={logo}

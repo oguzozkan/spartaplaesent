@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import "../../Css/card.css";
+
 function CardElements({ title, author, image, dates }) {
   return (
     <>

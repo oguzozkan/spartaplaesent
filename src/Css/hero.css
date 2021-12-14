@@ -1,15 +1,13 @@
-* {
-  font-family: Springville-Regular3;
-}
-
 .heroText {
   right: 0% !important;
   text-align: left !important;
   padding-bottom: 15vh !important;
   max-width: 450px;
+  font-family: Springville-Regular3;
 }
 .heroTitle {
   font-size: 300%;
+  font-family: Springville-Regular3;
 }
 @media (max-width: 768px) {
   .heroText {

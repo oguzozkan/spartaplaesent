@@ -1,8 +1,8 @@
-import Masonry from "react-masonry-css";
 import CardElements from "../CardElements/CardElements";
 import React from "react";
+import Masonry from "react-masonry-css";
 import helpers from "../Helpers/helpers";
-import "../../Css/card.css";
+
 function DynamicCard({ cardsInfo }) {
   const items = cardsInfo.map((card, index) => {
     return (
@@ -18,8 +18,8 @@ function DynamicCard({ cardsInfo }) {
 
   const breakpointColumnsObj = {
     default: 3,
-    1100: 3,
-    700: 2,
+    1024: 2,
+    700: 1,
     500: 1,
   };
 

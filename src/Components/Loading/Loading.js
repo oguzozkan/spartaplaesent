@@ -1,6 +1,6 @@
 import React from "react";
 import loading from "../../assets/img/loading.png";
-import "../../Css/loading.css";
+
 function Loading() {
   return (
     <div className="loading">

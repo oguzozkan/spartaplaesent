@@ -4,4 +4,9 @@
 
 .NavConteiner {
   min-height: 80px;
+
+  font-family: Springville-Regular3;
+}
+.NavInnerCon {
+  background-color: #ffff !important;
 }

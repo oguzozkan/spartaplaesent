@@ -1,7 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import "../../Css/hero.css";
-
+import "../../Css/carousel.css";
 const Swiper = ({ heroSlides, heroText }) => {
   return (
     <div className="carouselDiv ">

@@ -5,7 +5,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import NavB from "../Navbar/NavB";
 import Loading from "../Loading/Loading";
-import "../../Css/home.css";
 import Footer from "../Footer";
 import ContactForm from "../ContactForm/ContactForm";
 import DynamicCard from "../DynamicCard/DynamicCard";
@@ -56,31 +55,33 @@ function Home() {
     );
   } else {
     return (
-      <>
-        {" "}
-        <NavB />
-        <Container style={{ padding: 0 }}>
+      <div style={{ backgroundColor: "#ffff" }}>
+        <NavB style={{ backgroundColor: "#ffff !important" }} />
+        <Container className="containergeneral" style={{ padding: 0 }}>
           <Container style={{ padding: 0 }}>
             <Row>
               {/* style={{ maxWidth: 1440, justifyContent: "center" }} */}
-              <Col style={{ padding: 0 }}>
+              <Col style={{ padding: 0 }} lg={12} sm={12}>
                 <Hero heroText={heroText} heroSlides={heroSlides} />
               </Col>
             </Row>
           </Container>
-          <Container>
-            <Row className="mt-5">
-              <DynamicCard cardsInfo={cardsInfo} />
-            </Row>
-            <Row>
-              <Col xs={12}>
-                <ContactForm />
-              </Col>
-            </Row>
-          </Container>
         </Container>
-        <Footer />
-      </>
+        <Container className="containerdynamiccard">
+          <Row className="mt-5">
+            <Col sm={12}>
+              <DynamicCard cardsInfo={cardsInfo} />
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12}>
+              <ContactForm />
+            </Col>
+          </Row>
+        </Container>
+
+        <Footer style={{ backgroundColor: "#ffff !important" }} />
+      </div>
     );
   }
 }
