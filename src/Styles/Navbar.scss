@@ -1,0 +1,13 @@
+@import "../Variables/Variables.scss";
+
+.hamburgerNav {
+  padding-top: 4px !important;
+}
+
+.NavConteiner {
+  min-height: 80px;
+  font-family: $fontSpring;
+}
+.NavInnerCon {
+  background-color: $whiteColor !important;
+}

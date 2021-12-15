@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAC;EACZ,WAAW,EAAE,cAAc;CAC5B;;AAED,AAAA,aAAa,CAAC;EACZ,UAAU,EAAE,IAAI;EAChB,WAAW,ECPA,oBAAoB;CDQhC;;AACD,AAAA,YAAY,CAAC;EACX,gBAAgB,ECSL,IAAI,CDTe,UAAU;CACzC",
+    "sources": [
+        "../Styles/Navbar.scss",
+        "../Variables/Variables.scss"
+    ],
+    "names": [],
+    "file": "Navbar.css"
+}

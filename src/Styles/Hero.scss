@@ -1,21 +1,20 @@
+@import "../Variables/Variables.scss";
+
 .heroText {
   right: 0% !important;
   text-align: left !important;
   padding-bottom: 15vh !important;
   max-width: 450px;
 }
-
 .heroTitle {
   font-size: 300%;
 }
-
 @media (max-width: 768px) {
   .heroText {
     padding-bottom: 1.25rem !important;
     text-align: center !important;
   }
 }
-
 @media (max-width: 1024px) {
   .heroText {
     text-align: center !important;
@@ -24,20 +23,22 @@
 }
 
 .carouselDiv > div > div > button {
-  font-family: Springville-Regular3;
+  div {
+    div {
+      button {
+        background-color: $greyColor !important;
+        border-radius: 50% !important;
+        height: 10px !important;
+        width: 10px !important;
+        margin-right: 6px !important;
+        margin-left: 6px !important;
+        top: 600px !important;
+        opacity: $opacityGlobal;
+      }
+    }
+  }
+  font-family: $fontSpring;
 }
-
-.carouselDiv > div > div > button div div button {
-  background-color: #b6b6b6 !important;
-  border-radius: 50% !important;
-  height: 10px !important;
-  width: 10px !important;
-  margin-right: 6px !important;
-  margin-left: 6px !important;
-  top: 600px !important;
-  opacity: 0.75;
-}
-
 .carousel-indicators {
   top: 590px !important;
 }
@@ -46,8 +47,6 @@
 .left.carousel-control {
   display: none !important;
 }
-
 .carousel .carousel-control {
   visibility: hidden !important;
 }
-/*# sourceMappingURL=hero.css.map */

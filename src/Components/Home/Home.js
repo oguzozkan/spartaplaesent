@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 import NavB from "../Navbar/NavB";
 import Loading from "../Loading/Loading";
 import Footer from "../Footer";
+import "../../css/Home.css";
 import ContactForm from "../ContactForm/ContactForm";
 import DynamicCard from "../DynamicCard/DynamicCard";
 function Home() {

@@ -1,11 +1,12 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import "../../css/Card.css";
 
 function CardElements({ title, author, image, dates }) {
   return (
     <>
       <Card className="borderlessCard ">
-        <Card.Img variant="top" src={image} className="image" />
+        <Card.Img variant="top" src={image} className="image" alt={author} />
 
         <Card.Body style={{ padding: 0 }}>
           <Card.Text className="cardDate">{dates}</Card.Text>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
+import "../../css/Navbar.css";
 import menu from "../../assets/img/menu.png";
 import logo from "../../assets/img/logo.svg";
 

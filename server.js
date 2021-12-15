@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
-const SMTPTransport = require("nodemailer/lib/smtp-transport");
 const path = require("path");
 
 const app = express();

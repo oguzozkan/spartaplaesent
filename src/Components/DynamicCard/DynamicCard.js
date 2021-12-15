@@ -2,6 +2,7 @@ import CardElements from "../CardElements/CardElements";
 import React from "react";
 import Masonry from "react-masonry-css";
 import helpers from "../Helpers/helpers";
+import "../../css/Card.css";
 
 function DynamicCard({ cardsInfo }) {
   const items = cardsInfo.map((card, index) => {

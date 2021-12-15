@@ -1,0 +1,53 @@
+//Fonts
+$fontSpring: Springville-Regular3;
+$fontAcaslon: ACaslonpro-Regular;
+
+//FontSize
+$FontTitleLarge: 3vw;
+$FontTitleMedium: 2vw;
+$FontTitleSmall: 1.4vw;
+
+//Opacity
+$opacityGlobal: 0.75;
+
+//Padding
+$paddingMed: 15px;
+
+//Transition
+$transitionGlobal: all 0.2s ease-in-out;
+
+//Colors
+$blackColor: #000;
+$whiteColor: #fff;
+$hoverColor: rgb(78, 78, 78);
+$UnderLinesColor: rgba(100, 100, 100, 0.24);
+$greyColor: rgb(182, 182, 182);
+
+//Styles template
+@mixin buttonStyle {
+  background-color: $blackColor;
+  color: $whiteColor;
+  cursor: pointer;
+  border-left: none;
+
+  &:hover {
+    opacity: $opacityGlobal;
+    background-color: $hoverColor;
+    transition: $transitionGlobal;
+  }
+}
+
+//Functions
+
+@function str-replace($string, $search, $replace: "") {
+  $index: str-index($string, $search);
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace +
+      str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      );
+  }
+  @return $string;
+}

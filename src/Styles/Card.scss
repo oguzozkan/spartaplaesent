@@ -1,44 +1,44 @@
+@import "../Variables/Variables.scss";
+
 .borderlessCard {
   border: none !important;
-  border-bottom: 1px solid rgba(100, 100, 100, 0.24) !important;
+  border-bottom: 1px solid $UnderLinesColor !important;
   border-radius: 0 !important;
   outline: none;
-  font-family: ACaslonpro-Regular;
+  font-family: $fontAcaslon;
   margin-left: 10%auto;
   margin-right: 10%auto;
   padding: 5px 5px 5px 5px !important;
-}
 
-.borderlessCard .cardBody {
-  padding: 0px 0px 3em 0px !important;
-}
-
-.borderlessCard .cardDate {
-  margin-top: 5vh;
-  font-size: 0.7vw;
-  opacity: 0.7;
+  .cardBody {
+    padding: 0px 0px 3em 0px !important;
+  }
+  .cardDate {
+    margin-top: 5vh;
+    font-size: 0.7vw;
+    opacity: 0.7;
+  }
 }
 
 @media (max-width: 1024px) {
   .cardDate {
-    font-size: 1.4vw !important;
+    font-size: $FontTitleSmall !important;
   }
 }
 
 @media (max-width: 641px) {
   .cardDate {
-    font-size: 3vw !important;
+    font-size: $FontTitleLarge !important;
   }
 }
 
 .cardTitle {
-  font-size: 1.4vw;
+  font-size: $FontTitleSmall;
   line-height: 100%;
   padding-right: 25%;
   letter-spacing: -1px;
   margin-bottom: 2vh !important;
 }
-
 @media (max-width: 1024px) {
   .cardTitle {
     font-size: 1.4vw !important;
@@ -52,9 +52,8 @@
 }
 
 .cardLink {
-  color: #000;
+  color: $blackColor;
 }
-
 @media (max-width: 1024px) {
   .cardLink {
     font-size: 1.2vw !important;
@@ -71,27 +70,20 @@
   opacity: 0.6;
   color: #000;
 }
-
 .my-masonry-grid {
-  display: -webkit-box;
-  /* Not needed if autoprefixing */
-  display: -ms-flexbox;
-  /* Not needed if autoprefixing */
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
   display: flex;
-  margin-left: -0px;
-  /* gutter size offset */
+  margin-left: -0px; /* gutter size offset */
   width: auto;
 }
 
 .my-masonry-grid_column {
-  padding-left: 40px;
-  /* gutter size */
+  padding-left: 40px; /* gutter size */
   background-clip: padding-box;
   padding: 5px 5px 5px 5px !important;
+  div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
-
-.my-masonry-grid_column div {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-/*# sourceMappingURL=Card.css.map */

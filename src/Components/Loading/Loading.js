@@ -1,5 +1,6 @@
 import React from "react";
 import loading from "../../assets/img/loading.png";
+import "../../css/Loading.css";
 
 function Loading() {
   return (
