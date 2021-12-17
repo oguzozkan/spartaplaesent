@@ -87,8 +87,16 @@ const ContactForm = () => {
         </Row>
         <Row>
           <Col className=" d-flex align-items-center justify-content-center">
-            <input type="email" id="email" required placeholder="Email" />
-            <button type="submit">SUBMIT</button>
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="Email"
+              style={{ width: "250px" }}
+            />
+            <button type="submit" style={{ width: "100px" }}>
+              <label>SUBMIT</label>
+            </button>
           </Col>
         </Row>
       </form>

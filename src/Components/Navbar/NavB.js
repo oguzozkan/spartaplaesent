@@ -8,13 +8,7 @@ import logo from "../../assets/img/logo.svg";
 function NavB() {
   return (
     <>
-      <Navbar
-        variant="light"
-        bg="white"
-        className="NavConteiner"
-        collapseOnSelect
-        sticky="top"
-      >
+      <Navbar variant="light" bg="white" className="NavConteiner" sticky="top">
         <Container className="NavInnerCon">
           <Navbar.Brand href="#home">
             <img
@@ -26,7 +20,7 @@ function NavB() {
             />
           </Navbar.Brand>
 
-          <Nav>
+          <Nav className="NavLinks">
             <Nav.Link href="#" style={{ fontSize: "x-small" }}>
               222.555.5555
             </Nav.Link>

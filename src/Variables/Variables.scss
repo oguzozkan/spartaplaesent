@@ -4,7 +4,7 @@ $fontAcaslon: ACaslonpro-Regular;
 
 //FontSize
 $FontTitleLarge: 3vw;
-$FontTitleMedium: 2vw;
+$FontTitleMedium: 2.5vw;
 $FontTitleSmall: 1.4vw;
 
 //Opacity
@@ -29,7 +29,9 @@ $greyColor: rgb(182, 182, 182);
   color: $whiteColor;
   cursor: pointer;
   border-left: none;
-
+  text-align: center;
+  justify-content: center;
+  padding: 0px;
   &:hover {
     opacity: $opacityGlobal;
     background-color: $hoverColor;

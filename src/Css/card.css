@@ -10,61 +10,29 @@
 }
 
 .borderlessCard .cardBody {
-  padding: 0px 0px 3em 0px !important;
+  margin-top: 0px !important;
+  padding: 0px 0px 1em 0px !important;
+  font-size: 16px !important;
 }
 
 .borderlessCard .cardDate {
-  margin-top: 5vh;
-  font-size: 0.7vw;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 20px;
   opacity: 0.7;
-}
-
-@media (max-width: 1024px) {
-  .cardDate {
-    font-size: 1.4vw !important;
-  }
-}
-
-@media (max-width: 641px) {
-  .cardDate {
-    font-size: 3vw !important;
-  }
+  font-size: 12px !important;
 }
 
 .cardTitle {
-  font-size: 1.4vw;
+  font-size: 3em;
   line-height: 100%;
-  padding-right: 25%;
+  padding-right: 1%;
   letter-spacing: -1px;
   margin-bottom: 2vh !important;
 }
 
-@media (max-width: 1024px) {
-  .cardTitle {
-    font-size: 1.4vw !important;
-  }
-}
-
-@media (max-width: 641px) {
-  .cardTitle {
-    font-size: 3.5vw !important;
-  }
-}
-
 .cardLink {
   color: #000;
-}
-
-@media (max-width: 1024px) {
-  .cardLink {
-    font-size: 1.2vw !important;
-  }
-}
-
-@media (max-width: 641px) {
-  .cardLink {
-    font-size: 2.5vw !important;
-  }
 }
 
 .cardLink:hover {
@@ -77,21 +45,29 @@
   /* Not needed if autoprefixing */
   display: -ms-flexbox;
   /* Not needed if autoprefixing */
+  max-width: 1200px;
   display: flex;
-  margin-left: -0px;
+  margin-left: 37px;
   /* gutter size offset */
   width: auto;
 }
 
+@media (max-width: 1024px) {
+  .my-masonry-grid {
+    margin-left: 0px;
+  }
+}
+
 .my-masonry-grid_column {
-  padding-left: 40px;
+  padding-left: 40px !important;
   /* gutter size */
   background-clip: padding-box;
-  padding: 5px 5px 5px 5px !important;
+  padding: 20px 20px 20px 20px !important;
 }
 
 .my-masonry-grid_column div {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
+  margin-top: 25px;
 }
 /*# sourceMappingURL=Card.css.map */

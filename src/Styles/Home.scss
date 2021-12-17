@@ -43,25 +43,12 @@
   max-width: none !important;
 }
 
-@media (max-width: 768px) {
-  .containergeneral {
-    max-width: 720px;
-  }
-}
-
-@media (max-width: 576px) {
-  .containergeneral {
-    max-width: 540px;
-  }
-}
-
 /* .container {
   
   } */
 .containergeneral {
   width: 100%;
-  padding-right: $paddingMed;
-  padding-left: $paddingMed;
+  max-height: 640px;
   margin-right: auto;
   margin-left: auto;
   background-color: $whiteColor !important;
@@ -74,4 +61,10 @@
   margin-right: auto;
   margin-left: auto;
   background-color: $whiteColor !important;
+}
+
+@media (min-width: 1440px) {
+  .contHero {
+    max-width: 1440px !important;
+  }
 }

@@ -9,10 +9,13 @@ import Footer from "../Footer";
 import "../../css/Home.css";
 import ContactForm from "../ContactForm/ContactForm";
 import DynamicCard from "../DynamicCard/DynamicCard";
+import helpers from "../Helpers/helpers";
 function Home() {
   const [cardsInfo, setCards] = useState([]);
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [dateTitle, setDate] = useState("");
+  const [heroTitle, setTitle] = useState();
   const [heroText, setHeroText] = useState([]);
   const [heroSlides, setHeroSlides] = useState([]);
 
@@ -24,7 +27,6 @@ function Home() {
       .then(
         (result) => {
           setIsLoaded(true);
-          console.log(result);
           let orderByDate = [];
           let heroslides = [];
           let herotext = [];
@@ -37,6 +39,8 @@ function Home() {
           });
           setCards(orderByDate);
           setHeroSlides(heroslides);
+          setDate(helpers.numtoChar2(herotext.date));
+          setTitle(helpers.injectBr(herotext.title));
           setHeroText(herotext);
         },
         (error) => {
@@ -58,15 +62,17 @@ function Home() {
     return (
       <div style={{ backgroundColor: "#ffff" }}>
         <NavB style={{ backgroundColor: "#ffff !important" }} />
-        <Container className="containergeneral" style={{ padding: 0 }}>
-          <Container style={{ padding: 0 }}>
-            <Row>
-              {/* style={{ maxWidth: 1440, justifyContent: "center" }} */}
-              <Col style={{ padding: 0 }} lg={12} sm={12}>
-                <Hero heroText={heroText} heroSlides={heroSlides} />
-              </Col>
-            </Row>
-          </Container>
+        <Container className="contHero" fluid={true}>
+          <Row>
+            <Col style={{ padding: 0 }}>
+              <Hero
+                heroText={heroText}
+                heroSlides={heroSlides}
+                dateTitle={dateTitle}
+                heroTitle={heroTitle}
+              />
+            </Col>
+          </Row>
         </Container>
         <Container className="containerdynamiccard">
           <Row className="mt-5">

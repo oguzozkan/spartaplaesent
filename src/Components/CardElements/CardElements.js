@@ -8,7 +8,7 @@ function CardElements({ title, author, image, dates }) {
       <Card className="borderlessCard ">
         <Card.Img variant="top" src={image} className="image" alt={author} />
 
-        <Card.Body style={{ padding: 0 }}>
+        <Card.Body style={{ padding: 0, marginTop: 0 }} className="cardBody1">
           <Card.Text className="cardDate">{dates}</Card.Text>
           <Card.Text className="cardTitle">{title}</Card.Text>
         </Card.Body>

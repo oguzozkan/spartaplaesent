@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.footer`
   background: #fff;
   @media screen and (max-width: 820px) {
-    font-size: 11px !important;
+    font-size: 9px !important;
   }
 `;
 
@@ -24,7 +24,7 @@ export const WebRights = styled.small`
 `;
 export const LinkMedia = styled.a`
   color: #000 !important;
-
+  font-size: 0.75em;
   cursor: pointer;
   &:hover {
     color: #010606 !important;

@@ -4,10 +4,39 @@
 
 .NavConteiner {
   min-height: 80px;
-  font-family: Springville-Regular3;
+  font-family: ACaslonpro-Regular;
+}
+
+@media (max-width: 773px) {
+  .NavConteiner {
+    min-height: 50px;
+  }
 }
 
 .NavInnerCon {
   background-color: #fff !important;
+}
+
+.navbar-brand {
+  padding-left: 5% !important;
+}
+
+.NavLinks {
+  margin-right: 70px;
+}
+
+@media (max-width: 773px) {
+  .NavLinks {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 395px) {
+  .NavLinks {
+    font-size: 10px;
+  }
+  .navbar-brand img {
+    width: 15vh;
+  }
 }
 /*# sourceMappingURL=Navbar.css.map */

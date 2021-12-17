@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../src/Variables/Variables.scss"
+        "../Variables/Variables.scss"
     ],
     "names": [],
     "file": "Variables.css"

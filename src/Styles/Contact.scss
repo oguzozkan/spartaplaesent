@@ -1,9 +1,8 @@
 @import "../Variables/Variables.scss";
 
 label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-  border-radius: 7px;
+  padding: 2.5px 0px 0px 0;
+
   color: $whiteColor;
 }
 
@@ -17,44 +16,9 @@ button[type="submit"] {
     padding: 20px;
   } */
 
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-.col-right {
-  margin-top: 6px;
-  display: flex;
-  width: 120%;
-  height: 120%;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25,
-  .col-75,
   button[type="submit"] {
     margin-top: 0;
   }
-}
-.vertical-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

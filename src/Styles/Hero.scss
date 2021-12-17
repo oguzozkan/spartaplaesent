@@ -3,12 +3,41 @@
 .heroText {
   right: 0% !important;
   text-align: left !important;
-  padding-bottom: 15vh !important;
-  max-width: 450px;
+  padding-bottom: 10vh !important;
+  padding-right: 4vh;
+  max-width: 650px;
+
+  .heroTitle {
+    font-size: 4em;
+    font-family: $fontSpring;
+  }
+
+  .heroDate {
+    font-size: 2em;
+    font-family: $fontAcaslon;
+  }
+  .heroSubtitle {
+    font-size: 1.3em;
+    font-family: $fontSpring;
+  }
 }
-.heroTitle {
-  font-size: 300%;
+.carousel-caption {
+  left: 10% !important;
 }
+
+@media screen and (max-width: 773px) {
+  .carouselDiv {
+    width: 100%;
+    aspect-ratio: auto 4 / 3 !important;
+  }
+}
+// @media (max-width: 773px) {
+//   .carouselDiv {
+//     width: 100%;
+//     aspect-ratio: auto 4 / 3 !important;
+//   }
+// }
+
 @media (max-width: 768px) {
   .heroText {
     padding-bottom: 1.25rem !important;
@@ -18,29 +47,28 @@
 @media (max-width: 1024px) {
   .heroText {
     text-align: center !important;
-    padding: 12vw !important;
+    padding: 3vw !important;
   }
 }
-
-.carouselDiv > div > div > button {
-  div {
-    div {
-      button {
-        background-color: $greyColor !important;
-        border-radius: 50% !important;
-        height: 10px !important;
-        width: 10px !important;
-        margin-right: 6px !important;
-        margin-left: 6px !important;
-        top: 600px !important;
-        opacity: $opacityGlobal;
-      }
-    }
+@media (max-width: 320px) {
+  .heroText {
+    text-align: center !important;
+    padding: 1vw !important;
   }
-  font-family: $fontSpring;
+}
+.carouselDiv > div > div > button {
+  background-color: $greyColor !important;
+  border-radius: 50% !important;
+  height: 10px !important;
+  width: 10px !important;
+  margin-right: 6px !important;
+  margin-left: 6px !important;
+
+  opacity: $opacityGlobal;
+  border-top: 10px solid;
 }
 .carousel-indicators {
-  top: 590px !important;
+  top: 580px !important;
 }
 
 .right.carousel-control,

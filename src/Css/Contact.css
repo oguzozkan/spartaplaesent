@@ -1,7 +1,5 @@
 label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-  border-radius: 7px;
+  padding: 2.5px 0px 0px 0;
   color: #fff;
 }
 
@@ -10,6 +8,11 @@ button[type="submit"] {
   color: #fff;
   cursor: pointer;
   border-left: none;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px;
 }
 
 button[type="submit"]:hover {
@@ -24,58 +27,10 @@ button[type="submit"]:hover {
     background-color: #ffffff;
     padding: 20px;
   } */
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-.col-right {
-  margin-top: 6px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 120%;
-  height: 120%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25,
-  .col-75,
   button[type="submit"] {
     margin-top: 0;
   }
-}
-
-.vertical-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 /*# sourceMappingURL=Contact.css.map */
