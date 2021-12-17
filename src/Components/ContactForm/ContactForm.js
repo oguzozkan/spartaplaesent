@@ -34,25 +34,25 @@ const ContactForm = () => {
     return true;
   }
 
-  function postNewsLetter(email) {
-    fetch(
-      "https://s0nshulo19.execute-api.us-east-1.amazonaws.com/default/code-challenge",
-      {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(email),
-      }
-    )
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }
+  // function postNewsLetter(email) {
+  //   fetch(
+  //     "https://s0nshulo19.execute-api.us-east-1.amazonaws.com/default/code-challenge",
+  //     {
+  //       method: "POST",
+  //       headers: {
+  //         Accept: "application/json",
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify(email),
+  //     }
+  //   )
+  //     .then((response) => {
+  //       console.log(response);
+  //     })
+  //     .catch((error) => {
+  //       console.log(error);
+  //     });
+  // }
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -62,7 +62,7 @@ const ContactForm = () => {
       email: email.value,
     };
     //postNews(email);
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("http://159.223.6.116:5000/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
